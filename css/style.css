@@ -35,8 +35,12 @@ nav {
 
 
 
-/* *RESPONSIVE */
+/* ! RESPONSIVE ! */
+
+/* TABLET */
 @media screen and (min-width: 768px) {
+
+    /* SERVICES */
     .services > .container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -51,5 +55,14 @@ nav {
     .services > .container .card:first-child {
         background-color: pink;
         width: calc((100% / (3/2)) - 20px);
+    }
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: 200px;
+        padding-right: 200px;
     }
 }

@@ -60,6 +60,8 @@ nav {
 .testimonials {
     background-color: white;
     text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .testimonials .container {
@@ -95,6 +97,24 @@ nav {
 }
 
 
+/* * BENEFITS * */
+.benefits {
+    background-color: #9792e4;
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.benefits .container {
+    gap: 30px;
+}
+
+.benefits .card {
+    background-color: white;
+    color:#9792e4;
+    min-height: 300px;
+}
 
 
 
@@ -138,6 +158,17 @@ nav {
         height: auto;
         display: block;
     }
+
+
+    /* BENEFITS */
+    .benefits .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .benefits .card {
+        width: calc((100% / 2) - 20px);
+    }
 }
 
 
@@ -163,5 +194,10 @@ nav {
         margin-top: 100px;
     }
 
+
+    /* BENEFITS */
+    .benefits .card {
+        width: calc((100% / 3) - 20px);
+    }
 
 }

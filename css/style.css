@@ -76,13 +76,29 @@ nav {
         background-color: pink;
         width: calc((100% / (3/2)) - 20px);
     }
+
+    
+    /* PLANNING */
 }
 
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
     .container {
-        padding-left: 200px;
-        padding-right: 200px;
+        width: 80%;
+        background-color: red;
+    }
+
+    /* PLANNINg */
+    .planning .container {
+        flex-direction: row;
+        background-color: pink;
+        width: 80%;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .planning div {
+        width: calc(50% - 20px);
     }
 }

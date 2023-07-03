@@ -1,0 +1,33 @@
+header {
+    background-color: #0084fd;
+    color: white;
+}
+
+nav {
+    padding: 30px;
+}
+
+.container {
+    width: 80%;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+/* *SERVICES */
+.services  {
+    background-color: white;
+    margin-top: 60px;
+}
+
+.services > .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.services .card {
+    min-height: 500px;
+    margin-bottom: 30px;
+    background-color: #b5ddff;
+}

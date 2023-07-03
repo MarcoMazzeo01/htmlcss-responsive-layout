@@ -54,6 +54,10 @@ nav {
     margin-top: 40px;
 }
 
+.planning .card {
+
+}
+
 
 /* ! RESPONSIVE ! */
 
@@ -86,19 +90,23 @@ nav {
 @media screen and (min-width: 1024px) {
     .container {
         width: 80%;
-        background-color: red;
     }
 
     /* PLANNINg */
     .planning .container {
         flex-direction: row;
-        background-color: pink;
-        width: 80%;
         gap: 20px;
         justify-content: space-between;
+        width: 60%;
     }
 
-    .planning div {
+    .planning .container div {
         width: calc(50% - 20px);
     }
+
+    .planning .card {
+        margin-top: 100px;
+    }
+
+
 }

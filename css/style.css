@@ -65,11 +65,7 @@ nav i {
 
 .services__phone-img {
     position: relative;
-}
-
-.services .card img {
-    position: absolute;
-    bottom: -32px;
+    bottom: -39px;
 }
 
 .services .card button {
@@ -280,6 +276,14 @@ nav i {
         width: 50%;
     }
 
+    .services__phone-img {
+        position: relative;
+    }
+    
+    .services .card img {
+        position: absolute;
+        bottom: -32px;
+    }
 
     /* PLANNINg */
     .planning .container {

@@ -12,6 +12,10 @@ nav {
     padding: 30px;
 }
 
+section:nth-of-type(even) {
+    background-color: #9792e4;
+}
+
 .container {
     padding-left: 30px;
     padding-right: 30px;
@@ -40,7 +44,6 @@ nav {
 
 /* * PLANNING * */
 .planning {
-    background-color: #9792e4;
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -99,7 +102,6 @@ nav {
 
 /* * BENEFITS * */
 .benefits {
-    background-color: #9792e4;
     color:white;
     text-align: center;
     padding-top: 50px;
@@ -117,6 +119,31 @@ nav {
 }
 
 
+/* * ABOUT US * */
+.about-us {
+    line-height: 30px;
+}
+
+.about-us img {
+    aspect-ratio: 1;
+    width: 200px;
+    clip-path: circle();
+    display: block;
+}
+
+.about-us__quote {
+    position: relative;
+
+}
+
+.about-us__quote i {
+    display: block;
+    font-size: 4em;
+    color:#9792e4;
+    position: absolute;
+    bottom: 140px;
+    left: 145px;
+}
 
 
 /* ! RESPONSIVE ! */
@@ -175,7 +202,7 @@ nav {
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
     .container {
-        width: 80%;
+        width: 70%;
     }
 
     /* PLANNINg */

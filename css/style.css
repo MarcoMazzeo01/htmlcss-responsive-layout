@@ -63,6 +63,15 @@ nav i {
     font-size: 5em;
 }
 
+.services__phone-img {
+    position: relative;
+}
+
+.services .card img {
+    position: absolute;
+    bottom: -32px;
+}
+
 .services .card button {
     background-color: #0084fd;
     color: white;

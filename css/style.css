@@ -42,7 +42,6 @@ nav i {
 }
 
 .services .card {
-    min-height: 500px;
     margin-bottom: 30px;
     background-color: #b5ddff;
     padding: 2em;
@@ -51,11 +50,17 @@ nav i {
 .services .card h2 {
     color: #0084fd;
     font-weight: 800;
+    font-size: 1.5em;
 }
 
 .services .card p {
     color: rgba(0, 0, 0, 0.5);
     font-weight: 600;
+}
+
+.services .card > i {
+    color:#0084fd;
+    font-size: 5em;
 }
 
 .services .card button {
@@ -67,6 +72,15 @@ nav i {
     width: 90%;
     font-weight: 800;
     letter-spacing: 2px;
+}
+
+.services .card:nth-child(n+2) {
+    text-align: center;
+}
+
+.services .card:nth-child(n+2) > h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -174,9 +188,9 @@ nav i {
 }
 
 
-/* ! RESPONSIVE ! */
+                        /* ? RESPONSIVE ! */
 
-/* TABLET */
+/* ! TABLET */
 @media screen and (min-width: 768px) {
 
     /* SERVICES */
@@ -187,13 +201,17 @@ nav i {
 
     .services .card {
         width: calc((100% / 3) - 20px);
-        border: 1px dashed black;
         margin: 10px;
     }
 
     .services > .container .card:first-child {
-        background-color: pink;
         width: calc((100% / (3/2)) - 20px);
+
+    }
+
+    .services .card img {
+        width: 350px;
+        height: auto;
     }
 
     
@@ -237,26 +255,41 @@ nav i {
 }
 
 
-/* DESKTOP */
+/* ! DESKTOP */
 @media screen and (min-width: 1024px) {
     .container {
-        width: 70%;
+        width: 60%;
+ 
     }
+
+    /* SERVICES */
+    .services > .container .card:first-child {
+        display: flex;
+    }
+
+    .services > .container .card:first-child div {
+        width: 50%;
+    }
+
 
     /* PLANNINg */
     .planning .container {
         flex-direction: row;
-        gap: 20px;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 60%;
     }
 
     .planning .container div {
-        width: calc(50% - 20px);
+        width: calc(40%);
     }
 
     .planning .card {
-        margin-top: 100px;
+        margin-top: 150px;
+    }
+
+    .planning img {
+        width: 500px;
+        height: auto;
     }
 
 

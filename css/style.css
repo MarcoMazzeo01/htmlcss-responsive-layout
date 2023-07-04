@@ -196,6 +196,16 @@ section:nth-of-type(even) {
     .benefits .card {
         width: calc((100% / 2) - 20px);
     }
+
+
+    /* ABOUT US */
+    .about-us .container {
+        flex-direction: row;
+    }
+
+    .about-us .container div {
+        width: 50%;
+    }
 }
 
 

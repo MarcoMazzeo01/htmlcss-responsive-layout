@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-    padding: 30px;
+    padding: 20px 30px;
 }
 
 section:nth-of-type(even) {
@@ -28,6 +28,12 @@ section:nth-of-type(even) {
     border-radius: 10px;
 }
 
+/* * HEADER * */
+nav i {
+    font-size: 2em;
+}
+
+
 /* * SERVICES * */
 .services  {
     background-color: white;
@@ -39,6 +45,28 @@ section:nth-of-type(even) {
     min-height: 500px;
     margin-bottom: 30px;
     background-color: #b5ddff;
+    padding: 2em;
+}
+
+.services .card h2 {
+    color: #0084fd;
+    font-weight: 800;
+}
+
+.services .card p {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.services .card button {
+    background-color: #0084fd;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 20px;
+    border-style: none;
+    width: 90%;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 
